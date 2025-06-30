@@ -60,7 +60,7 @@ class Validator:
         else:
             state["is_valid"] = False
             state["validation_error"] = (
-                "❌ Could not extract a valid location or topic. Please rephrase."
+                "Sorry Try again, make sure ask a location-based question (e.g., weather in Nairobi)."
             )
 
         return state
