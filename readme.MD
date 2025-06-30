@@ -10,9 +10,9 @@ Note: This is a non-production prototype built for demonstration purposes only.
 - Python codebase for:
 	-	Query interpretation and validation via LLM
 	-	Real-time data retrieval from:
-	    •	Wikipedia
-	    •	OpenWeather
-	    •	NewsAPI
+	    -	Wikipedia
+	    -	OpenWeather
+	    -	NewsAPI
 	-	Response generation using LangGraph and tool outputs
 	-	Thumbs up/down feedback loop to regenerate answers
 	-	Streamlit interface for interaction
